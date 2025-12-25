@@ -1,0 +1,43 @@
+IT Tower,Service Family,Service Type,Service Sub Type,Service Usage Type,Meter Category,Meter Sub-Category,Meter Name,Consumed Service
+Database,Databases,Managed Database,-,Compute hours,Azure Database for PostgreSQL,,,Microsoft.DBforMyQL
+Database,Databases,Managed PostgreSQL Database,PostgreSQL Flexible Server,Compute hours,Azure Database for PostgreSQL,,,Microsoft.DBforPostgreSQL
+Analytics,Databricks,Databricks Compute,Databricks Units,Data Analytics Compute,Azure Databricks,,%Data Analytics%,Microsoft.Databricks
+Analytics,Databricks,Databricks Compute,Databricks Units,Data Engineering Compute,Azure Databricks,,%Data Engineering%,Microsoft.Databricks
+Monitoring,Azure Monitor,Notifications,Webhook,Webhook calls,Azure Monitor,Notifications,Webhook,microsoft.insights
+Monitoring,Azure Monitor,Notifications,Email, Email Notifications,Azure Monitor,Notifications,Email,microsoft.insights
+Backup and Recovery,Azure Backup,Backup Storage,Geo Redundant Storage,Block Blob Storage GB,Backup,Geo Redundant Storage,Standard IO - Block Blob (GB),Microsoft.RecoveryServices
+Backup and Recovery,Azure Backup,Backup Storage,GRS,Data Stored GB,Backup,,GRS Data Stored,Microsoft.RecoveryServices
+Backup and Recovery,Azure Backup,Protected Instances,Azure VM,Protected Instance Month,Backup,,%Azure VM%Protected Instances,Microsoft.RecoveryServices
+Analytics,Azure HDInsight,HDInsight Compute,HDInsight Compute,Compute Hours,Business Analytics,,Compute Hours,Microsoft.HDInsight
+Analytics,Azure Data Factory,Data Factory,Data Movement,Cloud Data Movement DIU-Hours,Business Analytics,Data Factory,Data Movement Cloud,Microsoft.DataFactory
+Analytics,Azure Data Factory,Data Factory,Data Movement,On-Premises Data Movement DIU-Hours,Business Analytics,Data Factory,Data Movement On Premises,Microsoft.DataFactory
+Analytics,Azure Data Factory,Data Factory,Orchestration Activity,High Frequency Cloud Activity,Business Analytics,Data Factory,High Frequency Cloud Activity,Microsoft.DataFactory
+Analytics,Azure Data Factory,Data Factory,Orchestration Activity,High Frequency On-Premises Activity,Business Analytics,Data Factory,High Frequency On Premises  Activity,Microsoft.DataFactory
+Analytics,Azure Data Factory,Data Factory,Orchestration Activity,Low Frequency On-Premises Activity,Business Analytics,Data Factory,Low Frequency On Premises  Activity,Microsoft.DataFactory
+Analytics,Azure Data Factory,Data Factory,Orchestration Activity,Low Frequency Cloud Activity,Business Analytics,Data Factory,Low Frequency Cloud Activity,Microsoft.DataFactory
+Analytics,Azure Data Lake Store,Data Lake Storage,Gen1,Data at Rest GB,Business Analytics,Data Lake Store,Data at Rest (GB),Microsoft.DataLakeStore
+Analytics,Azure Data Lake Store,Data Lake Storage,Gen1,Transactions,Business Analytics,Data Lake Store,Transactions%,Microsoft.DataLakeStore
+Analytics,Azure Stream Analytics,Stream Analytics,Standard,SU Hours,Business Analytics,Stream Analytics,Standard SU (Hours),Microsoft.StreamAnalytics
+Analytics,Azure Stream Analytics,Stream Analytics,Standard,Data Processed GB,Business Analytics,Stream Analytics,Data Processed (GB),Microsoft.StreamAnalytics
+Analytics,Azure Stream Analytics,Stream Analytics,Standard,SU Hours,Business Analytics,Stream Analytics,Streaming Units (Hours),Microsoft.StreamAnalytics
+Analytics,Azure Stream Analytics,Stream Analytics,Standard,Streaming Unit Hours,Stream Analytics,,%Streaming Unit,Microsoft.StreamAnalytics
+Caching,Azure Cache for Redis,Managed Cache,Redis,Cache Hours,Cache,Azure Redis Cache,,Microsoft.Cache
+Caching,Azure Cache for Redis,Managed Cache,Basic/Cache,Cache Hours,Redis Cache,,C%,Microsoft.Cache
+Caching,Azure Cache for Redis,Managed Cache,Basic,Cache Hours,Redis Cache,,___C%,Microsoft.Cache
+Content Delivery,Azure CDN,Content Delivery Network,Standard Microsoft,Outbound Data Transfer GB,CDN,CDN,Standard CDN Data Transfer%,Microsoft.Cdn
+Content Delivery,Azure CDN,Content Delivery Network,Standard,Outbound Data Transfer GB,Content Delivery Network,Azure CDN%,%Data Transfer,Microsoft.Cdn
+Compute,Azure Batch,Batch Compute,Reservation,License Hours,Cloud Services,Reservation,%License,Microsoft.Batch
+Compute,Azure Cloud Services,PaaS Compute,A-Series,Compute Hours,Cloud Services,A%,Compute Hours,Compute
+Compute,Azure Cloud Services,PaaS Compute,D-Series,Compute Hours,Cloud Services,D%,Compute Hours,Compute
+Compute,Azure Cloud Services,PaaS Compute,F-Series,Compute Hours,Cloud Services,F%,Compute Hours,Compute
+Compute,Azure Cloud Services,PaaS Compute,G-Series,Compute Hours,Cloud Services,G%,Compute Hours,Compute
+Compute,Azure Cloud Services,PaaS Compute,H-Series,Compute Hours,Cloud Services,H%,Compute Hours,Compute
+Compute,Azure Cloud Services,PaaS Compute,N-Series,Compute Hours,Cloud Services,N%,Compute Hours,Compute
+Compute,Azure Batch,Batch Compute,Low Priority,Compute Hours,Cloud Services,,Compute Hours,Microsoft.Batch
+Compute,Azure Cloud Services,PaaS Compute,A-Series,Compute Hours,Cloud Services,A%,A%,%Compute
+Compute,Azure Cloud Services,PaaS Compute,D-Series,Compute Hours,Cloud Services,D%,D%,%Compute
+Compute,Azure Cloud Services,PaaS Compute,F-Series,Compute Hours,Cloud Services,F%,F%,%Compute
+Compute,Azure Cloud Services,PaaS Compute,G-Series,Compute Hours,Cloud Services,G%,G%,%Compute
+Compute,Azure Cloud Services,PaaS Compute,H-Series,Compute Hours,Cloud Services,H%,H%,%Compute
+Compute,Azure Cloud Services,PaaS Compute,N-Series,Compute Hours,Cloud Services,N%,N%,%Compute
+Compute,Azure Batch,Batch Compute,D-Series,Compute Hours,Cloud Services,D%,D%,Microsoft.Batch
